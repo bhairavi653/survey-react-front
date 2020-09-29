@@ -43,7 +43,7 @@ class SignUp extends Component {
         return (
             <div className="auth-wrapper">
                 <div className="auth-inner">
-                    { this.state.redirect && <Redirect to="/dashboard" /> }
+                    { this.state.redirect && <Redirect to="/sign-in" /> }
 
                     <form onSubmit={this.submit}>
                 <h3>Sign Up</h3>

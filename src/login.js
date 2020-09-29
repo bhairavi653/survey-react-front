@@ -50,7 +50,7 @@ class Login extends Component {
                     <label>Password</label>
                     <input type="password" onChange={this.handlePassword} className="form-control" placeholder="Enter password" />
                 </div>
-                { this.state.redirect && <Redirect to="/dashboard" /> }
+                { this.state.redirect && <Redirect to="/survey" /> }
                 <button type="submit" className="btn btn-primary btn-block">Submit</button>
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
